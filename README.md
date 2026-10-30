@@ -6,7 +6,7 @@
 
 `Java` · `AI/LLM` · `Backend` · `Developer Tools` · `Open Source`
 
-[GitHub](https://github.com/nhth1nh) · [LinkedIn](https://www.linkedin.com/in/nhthinh8299/) · [CV](https://nhth1nh.github.io/my-cv/) · [Email](mailto:nht.8299@gmail.com)
+[GitHub](https://github.com/nhth1nh) · [LinkedIn](https://www.linkedin.com/in/nhth1nh/) · [CV](https://nhth1nh.github.io/my-cv/) · [Email](mailto:nht.8299@gmail.com)
 
 <!-- ACTIVITY:START -->
 <picture>
