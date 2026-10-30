@@ -72,6 +72,7 @@ export const renderCard = (tiles, mode) => {
     .card  { fill: ${t.surface}; stroke: ${t.border}; }
     .accent{ fill: ${t.accent}; }
     .t     { font: 600 13px ${SANS}; fill: ${t.secondary}; letter-spacing: 1.6px; }
+    .u     { font: 500 13px ${SANS}; fill: ${t.secondary}; text-anchor: end; }
     .v     { font: 600 58px ${SANS}; fill: ${t.primary}; text-anchor: middle; }
     .l     { font: 400 16px ${SANS}; fill: ${t.secondary}; text-anchor: middle; letter-spacing: .3px; }
     .f     { font: 400 13px ${SANS}; fill: ${t.secondary}; text-anchor: middle; }
@@ -80,7 +81,10 @@ export const renderCard = (tiles, mode) => {
   <clipPath id="card"><rect x="0" y="0" width="${W}" height="${H}" rx="10" /></clipPath>
   <rect class="card" x="0.5" y="0.5" width="${W - 1}" height="${H - 1}" rx="10" />
   <rect class="accent" x="0" y="0" width="${W}" height="3" clip-path="url(#card)" />
+  <title>Thinh Nguyen (@nhth1nh) - Engineering Activity</title>
+  <desc>Public contributions for Thinh Nguyen (@nhth1nh, formerly @nhthinh-axonivy)</desc>
   <text class="t" x="32" y="46">ENGINEERING ACTIVITY</text>
+  <text class="u" x="${W - 32}" y="46">@nhth1nh</text>
   ${rules}${cells}
   <text class="f" x="${W / 2}" y="180">Public repositories only · recalculated weekly by GitHub Actions</text>
 </svg>
@@ -151,6 +155,8 @@ export const renderHistory = (years, mode) => {
   </style>
   <clipPath id="plot"><rect x="0" y="0" width="${w}" height="${base}" /></clipPath>
   <rect class="card" x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" rx="10" />
+  <title>Thinh Nguyen (@nhth1nh) - Contribution History</title>
+  <desc>Public contribution history for Thinh Nguyen (@nhth1nh, formerly @nhthinh-axonivy)</desc>
   <text class="t" x="30" y="40">CONTRIBUTION HISTORY</text>
   <rect x="${w - 218}" y="31" width="10" height="10" rx="2" fill="${c.merged}" />
   <text class="lg" x="${w - 202}" y="40">Merged</text>

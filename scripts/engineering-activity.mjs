@@ -13,7 +13,7 @@
  * Usage: GITHUB_TOKEN=... node scripts/engineering-activity.mjs [--dry-run]
  */
 
-const USER = process.env.GH_USER ?? 'nhthinh-axonivy';
+const USER = process.env.GH_USER ?? 'nhth1nh';
 const TOKEN = process.env.GITHUB_TOKEN;
 const DRY_RUN = process.argv.includes('--dry-run');
 const README = new URL('../README.md', import.meta.url);
@@ -156,8 +156,8 @@ const picture = (name, altText) =>
     '</picture>',
   ].join('\n');
 
-const activity = picture('activity', `Engineering activity: ${alt}.`);
-const history = picture('history', `Contributions per year, public repositories only. ${histAlt}.`);
+const activity = picture('activity', `Engineering activity for Thinh Nguyen (@${USER}, formerly @nhthinh-axonivy): ${alt}.`);
+const history = picture('history', `Contributions per year for Thinh Nguyen (@${USER}, formerly @nhthinh-axonivy), public repositories only. ${histAlt}.`);
 
 const stars = (n) => (n >= 1000 ? `${(n / 1000).toFixed(1)}k` : String(n));
 
@@ -183,7 +183,7 @@ const oss = [
   table(external),
   '',
   `<sub>${sum(external, 'merged')} merged · ${sum(external, 'reviewed')} reviewed across ${external.length} public repos outside my own account.` +
-    (product.length ? ` Plain rows are ${orgList} products;` : '') +
+    (product.length ? ` Plain rows are ${orgList} products (contributed as @nhthinh-axonivy);` : '') +
     (community.length ? ' **bold** rows are community open source.' : '') +
     '</sub>',
 ].join('\n');
