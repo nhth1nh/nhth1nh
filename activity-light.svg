@@ -1,27 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="196" viewBox="0 0 760 196" role="img">
-  <style>
-    .card  { fill: #fcfcfb; stroke: rgba(11,11,11,0.10); }
-    .accent{ fill: #2a78d6; }
-    .t     { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #52514e; letter-spacing: 1.6px; }
-    .u     { font: 500 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #52514e; text-anchor: end; }
-    .v     { font: 600 58px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #0b0b0b; text-anchor: middle; }
-    .l     { font: 400 16px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #52514e; text-anchor: middle; letter-spacing: .3px; }
-    .f     { font: 400 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #52514e; text-anchor: middle; }
-    .r     { stroke: #e1e0d9; stroke-width: 1; }
-  </style>
-  <clipPath id="card"><rect x="0" y="0" width="760" height="196" rx="10" /></clipPath>
-  <rect class="card" x="0.5" y="0.5" width="759" height="195" rx="10" />
-  <rect class="accent" x="0" y="0" width="760" height="3" clip-path="url(#card)" />
   <title>Thinh Nguyen (@nhth1nh) - Engineering Activity</title>
   <desc>Public contributions for Thinh Nguyen (@nhth1nh, formerly @nhthinh-axonivy)</desc>
-  <text class="t" x="32" y="46">ENGINEERING ACTIVITY</text>
-  <text class="u" x="728" y="46">@nhth1nh</text>
-  <line class="r" x1="253.3" y1="72" x2="253.3" y2="158" /><line class="r" x1="506.7" y1="72" x2="506.7" y2="158" />
-    <text class="v" x="126.7" y="126">379</text>
-    <text class="l" x="126.7" y="152">PRs merged</text>
-    <text class="v" x="380.0" y="126">175</text>
-    <text class="l" x="380.0" y="152">Code reviews</text>
-    <text class="v" x="633.3" y="126">7</text>
-    <text class="l" x="633.3" y="152">Public repos</text>
-  <text class="f" x="380" y="180">Public repositories only · recalculated weekly by GitHub Actions</text>
+  <defs>
+    <clipPath id="card"><rect x="0" y="0" width="760" height="196" rx="8" /></clipPath>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0969da" />
+      <stop offset="50%" stop-color="#8250df" />
+      <stop offset="100%" stop-color="#1a7f37" />
+    </linearGradient>
+  </defs>
+  <style>
+    .card  { fill: #ffffff; stroke: #d0d7de; }
+    .t     { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #656d76; letter-spacing: 1.2px; }
+    .u     { font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #656d76; text-anchor: end; }
+    .v     { font: 700 42px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #1f2328; text-anchor: middle; font-feature-settings: 'tnum'; }
+    .l     { font: 500 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #656d76; text-anchor: middle; letter-spacing: .2px; }
+    .f     { font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #656d76; text-anchor: middle; }
+    .r     { stroke: #d0d7de; stroke-width: 1; }
+    .hr    { stroke: #eaeef2; stroke-width: 1; }
+  </style>
+  <rect class="card" x="0.5" y="0.5" width="759" height="195" rx="8" />
+  <rect x="0" y="0" width="760" height="3" fill="url(#brandGrad)" clip-path="url(#card)" />
+  <text class="t" x="28" y="28">ENGINEERING ACTIVITY</text>
+  <text class="u" x="732" y="28">@nhth1nh</text>
+  <line class="hr" x1="28" y1="38" x2="732" y2="38" />
+  <line class="r" x1="253.3" y1="56" x2="253.3" y2="154" /><line class="r" x1="506.7" y1="56" x2="506.7" y2="154" />
+    <circle cx="126.7" cy="66" r="14" fill="#fbefff" />
+    <path d="M5 3.25a2.25 2.25 0 1 0-1.5 2.122v5.256a2.251 2.251 0 1 0 1.5 0V8.25A2.25 2.25 0 0 0 7.25 6h1.878a2.25 2.25 0 1 0 0-1.5H7.25A3.75 3.75 0 0 0 3.5 8.25V5.372A2.25 2.25 0 0 0 5 3.25Zm6.5 2a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Zm-8 0a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Zm0 7.5a.75.75 0 1 1 0-1.5.75.75 0 0 1 0 1.5Z" fill="#8250df" transform="translate(118.7, 58)" />
+    <text class="v" x="126.7" y="118">379</text>
+    <text class="l" x="126.7" y="144">PRs merged</text>
+    <circle cx="380.0" cy="66" r="14" fill="#dafbe1" />
+    <path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16Zm3.78-9.72a.751.751 0 0 0-.018-1.042.751.751 0 0 0-1.042-.018L7.5 8.44 5.78 6.72a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.06 0l3.75-3.75Z" fill="#1a7f37" transform="translate(372.0, 58)" />
+    <text class="v" x="380.0" y="118">175</text>
+    <text class="l" x="380.0" y="144">Code reviews</text>
+    <circle cx="633.3" cy="66" r="14" fill="#ddf4ff" />
+    <path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h7a.25.25 0 0 1 .25.25v1.25a.25.25 0 0 1-.25.25h-7a.25.25 0 0 1-.25-.25Z" fill="#0969da" transform="translate(625.3, 58)" />
+    <text class="v" x="633.3" y="118">7</text>
+    <text class="l" x="633.3" y="144">Public repos</text>
+  <text class="f" x="380" y="178">Public repositories only · recalculated weekly by GitHub Actions</text>
 </svg>

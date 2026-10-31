@@ -1,38 +1,62 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="252" viewBox="0 0 760 252" role="img">
-  <style>
-    .card { fill: #1a1a19; stroke: rgba(255,255,255,0.10); }
-    .t    { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #c3c2b7; letter-spacing: 1.6px; }
-    .n    { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #c3c2b7; text-anchor: middle; }
-    .x    { font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #c3c2b7; text-anchor: middle; }
-    .lg   { font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #c3c2b7; }
-    .f    { font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #c3c2b7; }
-    .ax   { stroke: #2c2c2a; stroke-width: 1; }
-  </style>
-  <clipPath id="plot"><rect x="0" y="0" width="760" height="202" /></clipPath>
-  <rect class="card" x="0.5" y="0.5" width="759" height="251" rx="10" />
   <title>Thinh Nguyen (@nhth1nh) - Contribution History</title>
   <desc>Public contribution history for Thinh Nguyen (@nhth1nh, formerly @nhthinh-axonivy)</desc>
-  <text class="t" x="30" y="40">CONTRIBUTION HISTORY</text>
-  <rect x="542" y="31" width="10" height="10" rx="2" fill="#3987e5" />
-  <text class="lg" x="558" y="40">Merged</text>
-  <rect x="632" y="31" width="10" height="10" rx="2" fill="#d95926" />
-  <text class="lg" x="648" y="40">Reviews</text>
-  <line class="ax" x1="36" y1="202" x2="724" y2="202" />
+  <defs>
+    <clipPath id="histCard"><rect x="0" y="0" width="760" height="252" rx="8" /></clipPath>
+    <clipPath id="plot"><rect x="0" y="0" width="760" height="196" /></clipPath>
+    <linearGradient id="brandGradHist" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2f81f7" />
+      <stop offset="50%" stop-color="#a371f7" />
+      <stop offset="100%" stop-color="#3fb950" />
+    </linearGradient>
+    <linearGradient id="barGradMerged" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bc8cff" />
+      <stop offset="100%" stop-color="#8957e5" />
+    </linearGradient>
+    <linearGradient id="barGradReviews" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3fb950" />
+      <stop offset="100%" stop-color="#238636" />
+    </linearGradient>
+  </defs>
+  <style>
+    .card   { fill: #161b22; stroke: #30363d; }
+    .t      { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; letter-spacing: 1.2px; }
+    .n      { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #f0f6fc; text-anchor: middle; font-feature-settings: 'tnum'; }
+    .x      { font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; text-anchor: middle; }
+    .active { fill: #58a6ff; font-weight: 600; }
+    .lg     { font: 500 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }
+    .f      { font: 400 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; fill: #8b949e; }
+    .ax     { stroke: #21262d; stroke-width: 1; }
+    .hr     { stroke: #21262d; stroke-width: 1; }
+    .grid   { stroke: #21262d; stroke-width: 1; stroke-dasharray: 3 3; opacity: 0.5; }
+  </style>
+  <rect class="card" x="0.5" y="0.5" width="759" height="251" rx="8" />
+  <rect x="0" y="0" width="760" height="3" fill="url(#brandGradHist)" clip-path="url(#histCard)" />
+  <text class="t" x="28" y="28">CONTRIBUTION HISTORY</text>
+  <rect x="570" y="19" width="10" height="10" rx="3" fill="url(#barGradMerged)" />
+  <text class="lg" x="586" y="28">Merged</text>
+  <rect x="650" y="19" width="10" height="10" rx="3" fill="url(#barGradReviews)" />
+  <text class="lg" x="666" y="28">Reviews</text>
+  <line class="hr" x1="28" y1="38" x2="732" y2="38" />
+  <line class="grid" x1="36" y1="116" x2="724" y2="116" />
+  <line class="grid" x1="36" y1="156" x2="724" y2="156" />
+  <line class="ax" x1="36" y1="196" x2="724" y2="196" />
   
-    <rect x="85.8" y="197.6" width="26" height="10.4" rx="4" fill="#3987e5" clip-path="url(#plot)" />
-    <text class="n" x="98.8" y="190.6">5</text>
-    <text class="x" x="112.8" y="222">2022</text>
-    <rect x="219.4" y="162.9" width="26" height="45.1" rx="4" fill="#3987e5" clip-path="url(#plot)" /><rect x="247.4" y="185.1" width="26" height="22.9" rx="4" fill="#d95926" clip-path="url(#plot)" />
-    <text class="n" x="232.4" y="155.9">44</text><text class="n" x="260.4" y="178.1">19</text>
-    <text class="x" x="246.4" y="222">2023</text>
-    <rect x="353.0" y="115.8" width="26" height="92.2" rx="4" fill="#3987e5" clip-path="url(#plot)" /><rect x="381.0" y="165.6" width="26" height="42.4" rx="4" fill="#d95926" clip-path="url(#plot)" />
-    <text class="n" x="366.0" y="108.8">97</text><text class="n" x="394.0" y="158.6">41</text>
-    <text class="x" x="380.0" y="222">2024</text>
-    <rect x="486.6" y="74.0" width="26" height="134.0" rx="4" fill="#3987e5" clip-path="url(#plot)" /><rect x="514.6" y="170.0" width="26" height="38.0" rx="4" fill="#d95926" clip-path="url(#plot)" />
-    <text class="n" x="499.6" y="67.0">144</text><text class="n" x="527.6" y="163.0">36</text>
-    <text class="x" x="513.6" y="222">2025</text>
-    <rect x="620.2" y="122.9" width="26" height="85.1" rx="4" fill="#3987e5" clip-path="url(#plot)" /><rect x="648.2" y="131.8" width="26" height="76.2" rx="4" fill="#d95926" clip-path="url(#plot)" />
-    <text class="n" x="633.2" y="115.9">89</text><text class="n" x="661.2" y="124.8">79</text>
-    <text class="x" x="647.2" y="222">2026*</text>
-  <text class="f" x="30" y="240">* year to date · public repositories only</text>
+    <rect x="85.8" y="191.8" width="26" height="10.2" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="113.8" y="194" width="26" height="2" rx="1" fill="url(#barGradReviews)" opacity="0.35" />
+    <text class="n" x="98.8" y="185.8">5</text>
+    <text class="x" x="112.8" y="217">2022</text>
+    <rect x="219.4" y="159.3" width="26" height="42.7" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="247.4" y="180.2" width="26" height="21.8" rx="4" fill="url(#barGradReviews)" clip-path="url(#plot)" />
+    <text class="n" x="232.4" y="153.3">44</text><text class="n" x="260.4" y="174.2">19</text>
+    <text class="x" x="246.4" y="217">2023</text>
+    <rect x="353.0" y="115.2" width="26" height="86.8" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="381.0" y="161.8" width="26" height="40.2" rx="4" fill="url(#barGradReviews)" clip-path="url(#plot)" />
+    <text class="n" x="366.0" y="109.2">97</text><text class="n" x="394.0" y="155.8">41</text>
+    <text class="x" x="380.0" y="217">2024</text>
+    <rect x="486.6" y="76.0" width="26" height="126.0" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="514.6" y="166.0" width="26" height="36.0" rx="4" fill="url(#barGradReviews)" clip-path="url(#plot)" />
+    <text class="n" x="499.6" y="70.0">144</text><text class="n" x="527.6" y="160.0">36</text>
+    <text class="x" x="513.6" y="217">2025</text>
+    <rect x="620.2" y="121.8" width="26" height="80.2" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="648.2" y="130.2" width="26" height="71.8" rx="4" fill="url(#barGradReviews)" clip-path="url(#plot)" />
+    <text class="n" x="633.2" y="115.8">89</text><text class="n" x="661.2" y="124.2">79</text>
+    <rect x="620.2" y="203" width="54" height="20" rx="10" fill="rgba(56, 139, 253, 0.15)" stroke="rgba(56, 139, 253, 0.4)" stroke-width="1" />
+           <text class="x active" x="647.2" y="217">2026*</text>
+  <text class="f" x="28" y="240">* current year (to date) · public repositories only</text>
 </svg>
