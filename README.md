@@ -1,12 +1,21 @@
-# Thinh Nguyen
+# Nguyen Hung Thinh ([@nhth1nh](https://github.com/nhth1nh))
 
-**Software Engineer** — backend systems, AI applications, and developer tools, with a focus on understanding how things work under the hood.
+**Software Engineer** — Enterprise Java, Jakarta EE, Spring Boot & AI Engineering (LangChain4j, RAG, Guardrails)
 
-<sub>GitHub: [@nhth1nh](https://github.com/nhth1nh) · Formerly active on GitHub as **@nhthinh-axonivy**</sub>
+<sub>Formerly active on Enterprise Open Source as **@nhthinh-axonivy**</sub>
 
-`Java` · `AI/LLM` · `Backend` · `Developer Tools` · `Open Source`
+[Website / CV](https://nhth1nh.github.io/my-cv/) · [LinkedIn](https://www.linkedin.com/in/nhth1nh/) · [Email](mailto:nht.8299@gmail.com)
 
-[GitHub](https://github.com/nhth1nh) · [LinkedIn](https://www.linkedin.com/in/nhth1nh/) · [CV](https://nhth1nh.github.io/my-cv/) · [Email](mailto:nht.8299@gmail.com)
+### Tech Stack & Core Tools
+
+[![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)](https://www.oracle.com/java/)
+[![Jakarta EE](https://img.shields.io/badge/Jakarta_EE-00739C?style=flat-square&logo=eclipse&logoColor=white)](https://jakarta.ee/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+[![LangChain4j](https://img.shields.io/badge/LangChain4j-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)](https://github.com/langchain4j/langchain4j)
+[![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)](https://opentelemetry.io/)
+[![Arize Phoenix](https://img.shields.io/badge/Arize_Phoenix-F37021?style=flat-square&logo=phoenixframework&logoColor=white)](https://phoenix.arize.com/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](https://www.docker.com/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
 <!-- ACTIVITY:START -->
 <picture>
@@ -17,24 +26,35 @@
 
 ## What I Build
 
-```json
-{
-  "ships": {
-    "guardrails": ["prompt-injection", "PII", "observability"],
-    "llm": ["LangChain4j", "Azure OpenAI", "Ollama", "OpenSearch"],
-    "platform": ["Jakarta EE", "PrimeFaces 15", "ARIA", "authorization"]
-  },
-  "stack": {
-    "backend": ["Java", "Spring Boot", "REST", "PostgreSQL"],
-    "frontend": ["TypeScript", "React", "VS Code"],
-    "engineering": ["Docker", "GitHub Actions", "Jenkins", "Selenide"]
-  }
-}
-```
+> *I bridge enterprise software engineering with modern AI — turning complex platforms and LLMs into secure, observable, production-grade systems.*
 
-<sub>Upstreamed to LangChain4j: [`guardrailName()` on `GuardrailExecutedEvent`](https://github.com/langchain4j/langchain4j/pull/4940) · [Azure OpenAI Netty fallback](https://github.com/langchain4j/langchain4j/pull/5355)</sub>
+#### 🛡️ Safe & Trustworthy AI Applications
+- **Focus:** Architecting enterprise AI assistants and LLM pipelines that protect sensitive company data, defend against prompt-injection/jailbreaks, and emit full execution traces for production auditability.
+- **Key capabilities:** PII redaction & input/output guardrails, RAG (document retrieval), and real-time LLM observability.
+- **Technologies:** `LangChain4j` · `Azure OpenAI` · `Ollama` · `OpenTelemetry` · `Arize Phoenix`
 
-## Open Source
+#### 🏛️ Mission-Critical Enterprise Platforms
+- **Focus:** Engineering and modernizing core backend systems and enterprise web portals that handle complex workflows, cross-version backward compatibility, and large-scale platform migrations.
+- **Key capabilities:** Legacy-to-modern migrations (Jakarta EE / PrimeFaces), cross-version URL link resolution, role-based access control, and REST APIs.
+- **Technologies:** `Java` · `Spring Boot` · `Jakarta EE` · `PrimeFaces` · `PostgreSQL` · `REST APIs`
+
+#### ⚡ Workflow Automation & Delivery Infrastructure
+- **Focus:** Stabilizing CI/CD release pipelines, eliminating flaky UI/integration tests, and building developer tooling that accelerates continuous delivery across teams.
+- **Key capabilities:** Automated regression testing, containerized CI/CD pipelines, and developer productivity tools.
+- **Technologies:** `Docker` · `GitHub Actions` · `Jenkins` · `Selenide` · `Maven`
+
+## Open-Source Highlights
+
+### Community Upstream ([LangChain4j](https://github.com/langchain4j/langchain4j))
+- **Observability API**: Added [`guardrailName()` on `GuardrailExecutedEvent`](https://github.com/langchain4j/langchain4j/pull/4940) to enable granular tracing, logging, and evaluation in LLM guardrail pipelines.
+- **Azure OpenAI Resilience**: Fixed `NoClassDefFoundError` via lazy `ServiceLoader` discovery ([PR #5355](https://github.com/langchain4j/langchain4j/pull/5355)), allowing custom HTTP client providers without forcing Netty onto the classpath.
+- **LLM & Ollama Provider Integrations**: Local inference workflows, structured JSON extraction, and local LLM runtime support for Java applications.
+
+### Commercial & Enterprise Open Source ([Axon Ivy Market](https://github.com/axonivy-market))
+- **[axonivy-market/portal](https://github.com/axonivy-market/portal)**: Over 330+ merged PRs spanning enterprise dashboard modernization, cross-version URL link resolution, security hardening (XSS, access control, file upload filters), Jackson 3 migration, and PrimeFaces 15 / Jakarta EE 11 platform upgrades.
+- **[axonivy-market/smart-workflow](https://github.com/axonivy-market/smart-workflow)**: Architected the AI guardrail framework (PII masking, prompt-injection defense, collector/adapter architecture), observability tracing, and agentic workflow orchestration.
+
+## Repository Breakdown
 
 <!-- OSS:START -->
 | Repository | Merged | Reviewed |
@@ -49,7 +69,6 @@
 <sub>378 merged · 175 reviewed across 6 public repos outside my own account. Plain rows are axonivy-market products (contributed as @nhthinh-axonivy); **bold** rows are community open source.</sub>
 <!-- OSS:END -->
 
-
 ## Activity Over Time
 
 <!-- HISTORY:START -->
@@ -59,8 +78,8 @@
 </picture>
 <!-- HISTORY:END -->
 
-**Now** — building AI developer tooling and LLM applications in Java, and contributing upstream to the libraries I depend on.
+**Now** — building AI developer tooling, resilient LLM applications in Java, and contributing upstream to enterprise open source.
 
 ---
 
-> Building things, breaking things, and learning how they work.
+> Building things, breaking things, and learning how they work under the hood.
