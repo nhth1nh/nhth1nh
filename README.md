@@ -20,7 +20,7 @@
 <!-- ACTIVITY:START -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="activity-dark.svg">
-  <img alt="Engineering activity for Thinh Nguyen (@nhth1nh, formerly @nhthinh-axonivy): 379 PRs merged, 175 Code reviews, 7 Public repos." src="activity-light.svg" width="100%">
+  <img alt="Engineering activity for Thinh Nguyen (@nhth1nh, formerly @nhthinh-axonivy): 412 PRs merged, 194 Code reviews, 8 Public repos." src="activity-light.svg" width="100%">
 </picture>
 <!-- ACTIVITY:END -->
 
@@ -59,14 +59,15 @@
 <!-- OSS:START -->
 | Repository | Merged | Reviewed |
 | :--- | ---: | ---: |
-| [portal](https://github.com/axonivy-market/portal) | 338 | 147 |
+| [portal](https://github.com/axonivy-market/portal) | 361 | 166 |
 | [mobileapp](https://github.com/axonivy-market/mobileapp) | 25 | 17 |
-| [smart-workflow](https://github.com/axonivy-market/smart-workflow) | 11 | 10 |
-| **[langchain4j](https://github.com/langchain4j/langchain4j)** ★13.0k | 2 | 1 |
+| [smart-workflow](https://github.com/axonivy-market/smart-workflow) | 11 | 9 |
+| **[langchain4j](https://github.com/langchain4j/langchain4j)** ★13.4k | 2 | 1 |
+| [vscode-designer](https://github.com/axonivy/vscode-designer) | 1 | 1 |
 | [ai-assistant](https://github.com/axonivy-market/ai-assistant) | 1 | 0 |
 | [axonivy-express](https://github.com/axonivy-market/axonivy-express) | 1 | 0 |
 
-<sub>378 merged · 175 reviewed across 6 public repos outside my own account. Plain rows are axonivy-market products (contributed as @nhthinh-axonivy); **bold** rows are community open source.</sub>
+<sub>402 merged · 194 reviewed across 7 public repos outside my own account. Plain rows are axonivy-market, axonivy products (contributed as @nhthinh-axonivy); **bold** rows are community open source.</sub>
 <!-- OSS:END -->
 
 ## Activity Over Time
@@ -74,7 +75,7 @@
 <!-- HISTORY:START -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="history-dark.svg">
-  <img alt="Contributions per year for Thinh Nguyen (@nhth1nh, formerly @nhthinh-axonivy), public repositories only. 2022: 5 merged, 0 reviewed; 2023: 44 merged, 19 reviewed; 2024: 97 merged, 41 reviewed; 2025: 144 merged, 36 reviewed; 2026 (to date): 89 merged, 79 reviewed." src="history-light.svg" width="100%">
+  <img alt="Contributions per year for Thinh Nguyen (@nhth1nh, formerly @nhthinh-axonivy), public repositories only. 2022: 5 merged, 0 reviewed; 2023: 44 merged, 19 reviewed; 2024: 97 merged, 41 reviewed; 2025: 143 merged, 36 reviewed; 2026 (to date): 123 merged, 98 reviewed." src="history-light.svg" width="100%">
 </picture>
 <!-- HISTORY:END -->
 

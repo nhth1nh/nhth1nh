@@ -45,17 +45,17 @@
     <rect x="85.8" y="191.8" width="26" height="10.2" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="113.8" y="194" width="26" height="2" rx="1" fill="url(#barGradReviews)" opacity="0.35" />
     <text class="n" x="98.8" y="185.8">5</text>
     <text class="x" x="112.8" y="217">2022</text>
-    <rect x="219.4" y="159.3" width="26" height="42.7" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="247.4" y="180.2" width="26" height="21.8" rx="4" fill="url(#barGradReviews)" clip-path="url(#plot)" />
-    <text class="n" x="232.4" y="153.3">44</text><text class="n" x="260.4" y="174.2">19</text>
+    <rect x="219.4" y="159.1" width="26" height="42.9" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="247.4" y="180.1" width="26" height="21.9" rx="4" fill="url(#barGradReviews)" clip-path="url(#plot)" />
+    <text class="n" x="232.4" y="153.1">44</text><text class="n" x="260.4" y="174.1">19</text>
     <text class="x" x="246.4" y="217">2023</text>
-    <rect x="353.0" y="115.2" width="26" height="86.8" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="381.0" y="161.8" width="26" height="40.2" rx="4" fill="url(#barGradReviews)" clip-path="url(#plot)" />
-    <text class="n" x="366.0" y="109.2">97</text><text class="n" x="394.0" y="155.8">41</text>
+    <rect x="353.0" y="114.6" width="26" height="87.4" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="381.0" y="161.6" width="26" height="40.4" rx="4" fill="url(#barGradReviews)" clip-path="url(#plot)" />
+    <text class="n" x="366.0" y="108.6">97</text><text class="n" x="394.0" y="155.6">41</text>
     <text class="x" x="380.0" y="217">2024</text>
-    <rect x="486.6" y="76.0" width="26" height="126.0" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="514.6" y="166.0" width="26" height="36.0" rx="4" fill="url(#barGradReviews)" clip-path="url(#plot)" />
-    <text class="n" x="499.6" y="70.0">144</text><text class="n" x="527.6" y="160.0">36</text>
+    <rect x="486.6" y="76.0" width="26" height="126.0" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="514.6" y="165.8" width="26" height="36.2" rx="4" fill="url(#barGradReviews)" clip-path="url(#plot)" />
+    <text class="n" x="499.6" y="70.0">143</text><text class="n" x="527.6" y="159.8">36</text>
     <text class="x" x="513.6" y="217">2025</text>
-    <rect x="620.2" y="121.8" width="26" height="80.2" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="648.2" y="130.2" width="26" height="71.8" rx="4" fill="url(#barGradReviews)" clip-path="url(#plot)" />
-    <text class="n" x="633.2" y="115.8">89</text><text class="n" x="661.2" y="124.2">79</text>
+    <rect x="620.2" y="92.8" width="26" height="109.2" rx="4" fill="url(#barGradMerged)" clip-path="url(#plot)" /><rect x="648.2" y="113.8" width="26" height="88.2" rx="4" fill="url(#barGradReviews)" clip-path="url(#plot)" />
+    <text class="n" x="633.2" y="86.8">123</text><text class="n" x="661.2" y="107.8">98</text>
     <rect x="620.2" y="203" width="54" height="20" rx="10" fill="rgba(56, 139, 253, 0.15)" stroke="rgba(56, 139, 253, 0.4)" stroke-width="1" />
            <text class="x active" x="647.2" y="217">2026*</text>
   <text class="f" x="28" y="240">* current year (to date) · public repositories only</text>
