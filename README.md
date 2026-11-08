@@ -4,7 +4,7 @@
 
 <sub>Formerly active on Enterprise Open Source as **@nhthinh-axonivy**</sub>
 
-[Website / CV](https://nhth1nh.github.io/my-cv/) · [LinkedIn](https://www.linkedin.com/in/nhth1nh/) · [Email](mailto:nht.8299@gmail.com)
+[Website / CV](https://nhth1nh.github.io/my-cv/) · [LinkedIn](https://www.linkedin.com/in/nhth1nh/)
 
 ### Tech Stack & Core Tools
 
